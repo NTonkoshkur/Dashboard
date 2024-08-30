@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="sidebar__dashboard">
+    <div class="sidebar__logo">
+        <img src="img/sidebarLogo.svg" alt="Logo">
+        <h2 class="sidebar__logo-title">Dashboard</h2>
+        <p class="sidebar__logo-version">v.01</p>
+    </div>
+    <ul class="sidebar__menu">
+        <li>
+            <a href="#">
+                <img class="sidebar__btn-image" src="img/keyDashboard.svg" alt="Dashboard">
+                <span class="sidebar__btn-title">Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img class="sidebar__btn-image" src="img/squareProduct.svg" alt="Product">
+                <span class="sidebar__btn-title">Product</span>
+                <img class="sidebar__arrow" src="img/arrowRight.svg" alt="Arrow">
+            </a>
+        </li>
+        <li class="sidebar__btn-active">
+            <a href="#">
+                <img class="sidebar__btn-image" src="img/userCustomer.svg" alt="Customer">
+                <span class="btn__title-active">Customers</span>
+                <img class="sidebar__arrow" src="img/arrowRightActive.svg" alt="Arrow">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img class="sidebar__btn-image" src="img/walletIncome.svg" alt="Income">
+                <span class="sidebar__btn-title">Income</span>
+                <img class="sidebar__arrow" src="img/arrowRight.svg" alt="Arrow">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img class="sidebar__btn-image" src="img/discountPromote.svg" alt="Promote">
+                <span class="sidebar__btn-title">Promote</span>
+                <img class="sidebar__arrow" src="img/arrowRight.svg" alt="Arrow">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img class="sidebar__btn-image" src="img/questionHelp.svg" alt="Help">
+                <span class="sidebar__btn-title">Help</span>
+                <img class="sidebar__arrow" src="img/arrowRight.svg" alt="Arrow">
+            </a>
+        </li>
+    </ul>
+    <div class="sidebar__profile">
+        <img src="img/profilePhoto.png" alt="Profile">
+        <div>
+            <span class="sidebar__profile-name">Evano</span>
+            <span class="sidebar__profile-job">Project Manager</span>
+        </div>
+    </div>
+</section>
+<section class="dashboard">
+    <div class="dashboard__header">
+        <span>Hello Evano 👋🏼,</span>
+    </div>
+    <div class="main__content">
+        <div class="main__content-header">
+            <div class="main__content-title">
+                <span>All Customers</span>
+                <div class="main__content-subtitle">
+                    <span>Active Members</span>
+                </div>
+            </div>
+            <div class="main__content-search">
+                <img src="img/searchImage.svg" alt="Search">
+                <input type="search" placeholder="Search">
+            </div>
+        </div>
+        <div class="main__table">
+            <table class="main__table-content">
+                <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Company</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td>
+                        <button class="main__table-active">Active</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Floyd Miles</td>
+                    <td>Yahoo</td>
+                    <td>(205) 555-0100</td>
+                    <td>floyd@yahoo.com</td>
+                    <td>Kiribati</td>
+                    <td>
+                        <button class="main__table-inactive">Inactive</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ronald Richards</td>
+                    <td>Adobe</td>
+                    <td>(302) 555-0107</td>
+                    <td>ronald@adobe.com</td>
+                    <td>Israel</td>
+                    <td>
+                        <button class="main__table-inactive">Inactive</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marvin McKinney</td>
+                    <td>Tesla</td>
+                    <td>(252) 555-0126</td>
+                    <td>marvin@tesla.com</td>
+                    <td>Iran</td>
+                    <td>
+                        <button class="main__table-active">Active</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jerome Bell</td>
+                    <td>Google</td>
+                    <td>(629) 555-0129</td>
+                    <td>jerome@google.com</td>
+                    <td>Réunion</td>
+                    <td>
+                        <button class="main__table-active">Active</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kathryn Murphy</td>
+                    <td>Microsoft</td>
+                    <td>(406) 555-0120</td>
+                    <td>kathryn@microsoft.com</td>
+                    <td>Curaçao</td>
+                    <td>
+                        <button class="main__table-active">Active</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jacob Jones</td>
+                    <td>Yahoo</td>
+                    <td>(208) 555-0112</td>
+                    <td>jacob@yahoo.com</td>
+                    <td>Brazil</td>
+                    <td>
+                        <button class="main__table-active">Active</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kristin Watson</td>
+                    <td>Facebook</td>
+                    <td>(704) 555-0127</td>
+                    <td>kristin@facebook.com</td>
+                    <td>Åland Islands</td>
+                    <td>
+                        <button class="main__table-inactive">Inactive</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="main__content-cards">
+                <div class="main__cards-list">
+                    <div class="main__cards-block active">
+                        <h3 class="main__cards-category">Customer Name</h3>
+                        <span>Jane Cooper</span>
+                        <h3 class="main__cards-category">Company</h3>
+                        <span>Microsoft</span>
+                        <h3 class="main__cards-category">Phone Number</h3>
+                        <span>(225) 555-0118</span>
+                        <h3 class="main__cards-category">Email</h3>
+                        <span>jane@microsoft.com</span>
+                        <h3 class="main__cards-category">Country</h3>
+                        <span>United States</span>
+                        <h3 class="main__cards-category">Status</h3>
+                        <span class="main__table-active">Active</span>
+                    </div>
+                    <div class="main__cards-block inactive">
+                        <h3 class="main__cards-category">Customer Name</h3>
+                        <span>Jane Cooper</span>
+                        <h3 class="main__cards-category">Company</h3>
+                        <span>Microsoft</span>
+                        <h3 class="main__cards-category">Phone Number</h3>
+                        <span>(225) 555-0118</span>
+                        <h3 class="main__cards-category">Email</h3>
+                        <span>jane@microsoft.com</span>
+                        <h3 class="main__cards-category">Country</h3>
+                        <span>United States</span>
+                        <h3 class="main__cards-category">Status</h3>
+                        <span class="main__table-inactive">Inactive</span>
+                    </div>
+                    <div class="main__cards-block inactive">
+                        <h3 class="main__cards-category">Customer Name</h3>
+                        <span>Jane Cooper</span>
+                        <h3 class="main__cards-category">Company</h3>
+                        <span>Microsoft</span>
+                        <h3 class="main__cards-category">Phone Number</h3>
+                        <span>(225) 555-0118</span>
+                        <h3 class="main__cards-category">Email</h3>
+                        <span>jane@microsoft.com</span>
+                        <h3 class="main__cards-category">Country</h3>
+                        <span>United States</span>
+                        <h3 class="main__cards-category">Status</h3>
+                        <span class="main__table-inactive">Inactive</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content-footer">
+                <h3 id="footer__change-text">Showing data 1 to 8 of 256K entries</h3>
+                <div class="main__footer-btn">
+                    <a href="#">
+                        <button class="main__btn-inactive">&#8249;</button>
+                    </a>
+                    <a href="#">
+                        <button class="main__btn-active">1</button>
+                    </a>
+                    <a href="#">
+                        <button class="main__btn-inactive">2</button>
+                    </a>
+                    <a href="#">
+                        <button class="main__btn-inactive disable">3</button>
+                    </a>
+                    <a href="#">
+                        <button class="main__btn-inactive disable">4</button>
+                    </a>
+                    <span>...</span>
+                    <a href="#">
+                        <button class="main__btn-inactive">40</button>
+                    </a>
+                    <a href="#">
+                        <button class="main__btn-inactive">&#8250;</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
