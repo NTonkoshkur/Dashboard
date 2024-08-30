@@ -34,10 +34,6 @@ a {
 
 /* Sidebar */
 
-.dashboard {
-    height: 1298px;
-}
-
 .sidebar__dashboard{
     width: 324px;
     min-height: 1198px;
